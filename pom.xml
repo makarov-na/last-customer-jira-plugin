@@ -1,0 +1,52 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <parent>
+        <groupId>com.atlassian.jira.plugins</groupId>
+        <artifactId>jira-plugin-base</artifactId>
+        <version>8</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>ru.cti</groupId>
+    <artifactId>last-customer-plugin</artifactId>
+    <version>1.0</version>
+
+    <name>CTI custom field plugin</name>
+    <packaging>atlassian-plugin</packaging>
+
+    <properties>
+        <atlassian.plugin.key>ru.cti.lastCustomerPlugin</atlassian.plugin.key>
+        <!-- 
+            Change this property to compile your plugin against different JIRA
+            versions.
+        -->
+        <atlassian.product.version>3.12</atlassian.product.version>
+        <atlassian.product.test-lib.version>3.12</atlassian.product.test-lib.version>
+        <atlassian.product.data.version>3.12</atlassian.product.data.version>
+    </properties>
+
+   
+	<developers>
+		<developer>
+			<name>Nikolay Makarov</name>
+			<organization>CTI</organization>
+		</developer>
+	</developers>
+	
+
+    <!-- TODO: Complete source control details -->
+    <!--
+    <scm>
+		<connection></connection>
+		<developerConnection></developerConnection>
+		<url></url>
+	</scm>
+	-->
+
+
+  <scm>
+    <connection>scm:svn:http://svn.atlassian.com/svn/public/atlassian/jira/plugins/jira-plugin-base/tags/last-customer-plugin-1.0</connection>
+    <developerConnection>scm:svn:https://svn.atlassian.com/svn/public/atlassian/jira/plugins/jira-plugin-base/tags/last-customer-plugin-1.0</developerConnection>
+    <url>http://svn.atlassian.com/fisheye/browse/public/atlassian/jira/plugins/jira-plugin-base/tags/last-customer-plugin-1.0</url>
+  </scm>
+</project>
